@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    background-image: url("./img/foter2.png");
+    background-size: cover;
+    
+}
+#paginanavegacion{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+
+
+.collapse{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+
+.collapse ul li a{
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:darkgray;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.container-fluid li a:hover{
+color: white;
+}
+
+.collapse ul li :hover{
+    color: white;
+}
+
+#nombre{
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+
+
+}
+#estudio{
+    color: white;
+    text-align:  center;
+    font-size: 30px;
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+.titulo{
+    margin-top: 150px;
+
+}
+
+.informacion{
+    height: 100%;
+    margin-top: 300px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+
+}
+
+.persona{
+    padding-left: 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-items: space-between;
+
+}
+
+.sobremi p{
+    padding-top: 20px;
+ }
+#sobre{
+    font-size: 50px;
+}
+
+ .tecnologias{
+margin-left: 30%;
+width: 30%;
+font-weight: 400;
+
+}
+
+ .tecnologia{
+    width: 100px;
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+ }
+
+ .tecnologia .icon{
+    font-size: 80px;
+
+ }
+
+.tecnologia #html{
+color: #e34c26;
+}
+
+.tecnologia .icon:hover{
+    filter: brightness(1.75);
+}
+
+.tecnologia #css{
+    color: #264de4;
+}
+
+.tecnologia #js{
+    color: #f0db4f;
+}
+
+.tecnologia #python{
+    color: #306998;
+}
+
+.tecnologia #bd{
+    color: #165CAA;
+}
+
+.tecnologia #git{
+    color: #333;
+}
+
+.tecnologia #bootstrap{
+    color: #563d7c;
+}
+
+.tecnologia #php{
+    color: #474A8A;
+}
+#cshart{
+    height: 80px;
+    width: 80px;
+
+ 
+}
+
+#cshart:hover{
+    filter: brightness(1.75);
+    
+}
+.tecnologia p{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    
+}
+#titulotec{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#titulosobre{
+font-size: 40px;
+}
+
+#textsobre{
+    font-weight: 100;
+    font-size: 20px;
+    text-align: start;
+    
+}
+.ordenar{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.portflio{
+    padding-left: 100px;
+    padding-top: 200px;
+}
+.proyectos{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 29% 29% 29%;
+    gap: 0px;
+}
+
+#textport{
+font-size: 40px;
+}
+
+.tarjeta{
+
+   position: relative; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 250px;
+   padding-left: 20px;
+}
+
+
+.imagentarjeta{
+height: 100%;
+width: 100%;
+border-radius: 2%;
+
+
+}
+
+
+
+.text{
+    margin-top: 70px;
+    text-align: center;
+    position:absolute;
+    transition: all 1.2s;
+    color: white;
+    opacity: 0;
+    transform: scale(1.5);
+
+}
+
+.text h1{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    
+}
+.text p{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    
+}
+
+.text a{
+color: white;
+cursor: pointer;
+}
+
+.tarjeta:hover > .imagentarjeta{
+    filter: brightness(20%);
+
+}
+.tarjeta:hover > .text{
+     
+    transform: scale(1);
+
+    opacity: 1;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.redes{
+    margin: auto;
+}
+
+.redes i{
+    padding: 5px;
+    color: white;
+    font-size: 50px;
+}
+
+.fa-envelope:hover{
+    color: #165CAA;
+}
+
+.fa-github:hover{
+    color: #333;
+}
+
+.fa-linkedin:hover{
+    color: #264de4;
+}
+
+.fa-comment:hover{
+    color: green;
+}
+.navbar-nav .nav-item a{
+    text-decoration: none;
+     color: darkgray;
+}
+.container-fluid li a i{
+display: flex;
+color: white;
+list-style:none;
+padding-top: 10px;
+
+}
+
+.container-fluid li{
+    list-style:none;
+    }
+
+
+
+.container-fluid li a{
+    text-decoration: none;
+}
+
+.container-fluid .navbar-toggler i{
+    color: white;
+    font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    .tecnologias{
+        margin-left: 20%;
+    }
+    .portflio{
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #titulotec{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .tecnologia p{
+        font-size: 15px;
+    }
+    .tecnologias{
+        margin-left: 0%;
+    }
+    .ordenar{
+  
+        gap: 10%;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    .persona{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        padding-left: 0px;  
+    }
+
+    .persona p{
+        text-align: center;
+    }
+    .ordenar{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 10%;
+    }
+    .proyectos{
+      
+        grid-template-columns: 50% 50%;
+        height: 900px;
+        padding-right: 5%;
+    }
+  
+    
+    .text{
+transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 980px) {
+    
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+       
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #paginanavegacion{
+        background-color: transparent;
+    }
+
+    .container-fluid li a i p{
+        color: white;
+        
+        }
+
+}
+
+@media screen and (max-width: 700px) {
+   .tecnologias{
+width: 50%;   
+ }
+
+ .proyectos{
+    grid-template-columns: 100%;
+    height: 1700px;
+    gap: 1%;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .tecnologias{
+        width: 60%; 
+    
+    }
+    
+        
+        
+        }
+
+    
+
